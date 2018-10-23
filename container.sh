@@ -7,5 +7,5 @@ else
 docker rm $(docker ps --all -q -f status=exited)
 
   fi
-}
+
 
